@@ -4,41 +4,9 @@ In Neighborhood Processing, the new pixel value g(x, y) is calculated based on n
 
 ## Kernel
 In image processing, a kernel, convolution matrix, or mask is a small matrix used for blurring, sharpening, embossing, edge detection, and more. This is accomplished by doing a convolution between the kernel and an image. Or more simply, when each pixel in the output image is a function of the nearby pixels (including itself) in the input image, the kernel is that function.
-Box blur
-(normalized)	
-1
-9
-[
- 
- 
-1
- 
- 
-1
- 
- 
-1
- 
- 
-1
- 
- 
-1
- 
- 
-1
- 
- 
-1
- 
- 
-1
- 
- 
-1
-]
-{\displaystyle {\frac {1}{9}}{\begin{bmatrix}\ \ 1&\ \ 1&\ \ 1\\\ \ 1&\ \ 1&\ \ 1\\\ \ 1&\ \ 1&\ \ 1\end{bmatrix}}}
-### Convolution with a Kernel Animation
+![image](https://github.com/user-attachments/assets/1459c238-089c-458e-a342-acc7b2479e68)
+
+
 ![2D_Convolution_Animation.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/bbb3762a-335e-492c-8c88-25255b9c1516/192a5d63-b897-49a8-ae35-eaa631a18149/2D_Convolution_Animation.gif)
 ## Line Buffer
 A line buffer is a temporary storage area used in image processing to hold a row (or "line") of pixels. Line buffers are particularly useful in hardware and real-time image processing, especially when working with streaming data or images that need to be processed sequentially, line by line.
