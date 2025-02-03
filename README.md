@@ -17,3 +17,12 @@ A line buffer is a temporary storage area used in image processing to hold a row
 ![Screenshot 2024-11-11 100541](https://github.com/user-attachments/assets/23f14e85-89f7-4d28-bfcf-af0c6cf86a08)
 
 ![image](https://github.com/user-attachments/assets/69048602-2d44-45fb-abe5-1d3c2268e91b)
+
+## System Architecture
+1. DDR Stores the image.
+2. DMA Sends first 4 lines to the IP.
+3. IP sends an interrupt when it needs the next line buffer.
+4. 2 & 3 continues until the entire image is processed.
+5. Send the image back to PC.
+6. 
+![Screenshot 2024-11-11 101107](https://github.com/user-attachments/assets/712c79f5-322c-427a-b0a5-b08ee20fb270)
