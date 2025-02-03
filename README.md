@@ -1,5 +1,6 @@
 # NeiborhoodImageProcessing
 In Neighborhood Processing, the new pixel value g(x, y) is calculated based on not only the original pixel at the same position f(x, y), but also with its neighbors, as well as a Kernel:
+
 ![Screenshot 2024-11-11 092402](https://github.com/user-attachments/assets/5ff79ce5-737a-44e4-bc24-e3c737c0dcbf)
 
 
@@ -12,3 +13,7 @@ In image processing, a kernel, convolution matrix, or mask is a small matrix use
 
 ## Line Buffer
 A line buffer is a temporary storage area used in image processing to hold a row (or "line") of pixels. Line buffers are particularly useful in hardware and real-time image processing, especially when working with streaming data or images that need to be processed sequentially, line by line.
+
+![Screenshot 2024-11-11 100541](https://github.com/user-attachments/assets/23f14e85-89f7-4d28-bfcf-af0c6cf86a08)
+
+![image](https://github.com/user-attachments/assets/69048602-2d44-45fb-abe5-1d3c2268e91b)
