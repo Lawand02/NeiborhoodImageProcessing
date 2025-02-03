@@ -24,5 +24,4 @@ A line buffer is a temporary storage area used in image processing to hold a row
 3. IP sends an interrupt when it needs the next line buffer.
 4. 2 & 3 continues until the entire image is processed.
 5. Send the image back to PC.
-6. 
 ![Screenshot 2024-11-11 101107](https://github.com/user-attachments/assets/712c79f5-322c-427a-b0a5-b08ee20fb270)
